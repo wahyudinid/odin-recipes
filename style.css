@@ -11,6 +11,9 @@ h1, h2 {
 img {
     display: block;        
     margin: auto;
+    height: 300px;
+    width: auto;
+    padding: 20px;
 }
 .link {
     display: grid;
@@ -21,11 +24,23 @@ a {
     text-decoration: none;
     color: white;
     border: 2px solid white;
-    
+    padding: 5px;
 }
 
+.list {
+    list-style-type: none;
+    padding: 10px;
 
+}
 
 ul,ol,li {
     padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
